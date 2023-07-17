@@ -1,0 +1,117 @@
+/* Paleta de cores
+1- 8, 6, 15
+2- 43, 48, 59
+3- 117, 54, 37
+4- 199, 69, 26 */
+
+*{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 0px;
+    margin: 0px;  
+}
+
+#pagina{
+   background-image: url(imagens/FundoAlterado.png);
+   background-repeat: no-repeat;
+   height:961px;
+   width: 100%;
+    
+}
+
+main{ 
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    
+}
+
+#titulo{
+    margin: 15px  ;
+    width: 100%;
+    display: flex;
+    align-items: start;  
+    color: white;  
+}
+
+#subtitulo{
+    margin: 15px auto;
+    font-size: 20px;
+    color: white;
+}
+
+#formulario{
+    background-color: rgba(0, 0, 0, 0.89);
+    border-radius: 5px;
+    box-shadow: none;
+    width: 600px;
+    height: 430px;
+    margin: 0px auto;
+    text-align: center;  
+}
+
+::placeholder{
+    color: rgb(255, 255, 255);
+}
+input{
+    width: 50%;
+    height: 50px;
+    margin: 2px auto;
+    display: block;
+    text-align: center; 
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: rgba(136, 135, 135, 0.267);
+    color: white;
+   
+}
+
+button{
+    display: block;
+    margin-left: 150px;
+    font-size: 20px;
+    width: 50%;
+    height: 40px;
+    background-color:rgb(6, 88, 212)  ;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    color: white;
+}
+
+button:hover{
+    background-color:rgb(0, 54, 230);
+}
+
+.recupSenha{
+    margin: 30px auto;
+    width:50%;
+    display: flex;
+    justify-content: space-around; 
+    color: white;
+    
+}
+#recupSenha1:hover{
+    background-color: rgb(6, 52, 121); 
+}
+
+#recupSenha2:hover{
+    background-color: rgb(6, 52, 121); 
+}
+
+a{
+    width:50%;
+    height: 20px;
+    padding: 5px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 251, 251);
+    border:2px outset rgba(2, 13, 31, 0.685);
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0);  
+}
+
+
+

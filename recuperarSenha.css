@@ -1,0 +1,12 @@
+*{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 0px;
+    margin: 0px;  
+}
+#pagina{
+    background-image: url(imagens/fundoRecupSenha.jpg);
+    background-repeat: no-repeat;
+    height:961px;
+    width: 100%;
+     
+ }
